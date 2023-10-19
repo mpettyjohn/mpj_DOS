@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mark Pettyjohn</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            background-color: black;
+            color: lime;
+            font-size: 16px;
+            padding: 20px;
+            overflow-y: scroll;
+        }
+
+        #output {
+            white-space: pre-wrap;
+        }
+
+        #commandInput {
+            width: 100%;
+            background-color: black;
+            border: none;
+            color: lime;
+            outline: none;
+            font-family: 'Courier New', monospace;
+            padding: 5px;
+        }
+        
+        #blackout {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            z-index: 9999;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="output">
+        C:\> Welcome to Mark Pettyjohn's Website. Type HELP for commands.
+    </div>
+    <input id="commandInput" placeholder="C:\>">
+
+    <div id="blackout"></div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
