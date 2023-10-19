@@ -1,4 +1,4 @@
-import { typeOutText } from './typeOutText';
+import { typeOutText } from './typeOutText.js';
 
 export function handleSpecialCommand(command, blackout) {
     switch (command) {
