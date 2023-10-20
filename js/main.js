@@ -1,6 +1,6 @@
-import { handleCommand } from './commandHandler';
-import { handleNavigationCommand } from './navigationCommands';
-import { handleSpecialCommand } from './specialCommands';
+import { handleCommand } from './commandHandler.js';
+import { handleNavigationCommand } from './navigationCommands.js';
+import { handleSpecialCommand } from './specialCommands.js';
 
 const commandInput = document.getElementById('commandInput');
 const output = document.getElementById('output');
